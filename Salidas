@@ -1,0 +1,59 @@
+[student@workstation DO180-apps]$ history
+    1  exit
+    2  cd /usr/local/lib
+    3  ll
+    4  lab
+    5  cd
+    6  pwd
+    7  ls
+    8  echo "ghp_pEi0qewisF3eaosLWt6bU92TqzxlYC0LsFq6"> /home/student/token
+    9  ls
+   10  cat token 
+   11  git config --global credential.helper cache
+   12  cat token 
+   13  hostname
+   14  cat token 
+   15  hostname
+   16  rm token
+   17  ls -l
+   18  ls -s
+   19  ls -i
+   20  ll
+   21  echo "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"> /home/student/token
+   22  ls -l
+   23  cat token 
+   24  clear
+   25  lab-configure
+   26  rm token 
+   27  echo "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"> /home/student/token
+   28  cat token
+   29  lab-configure
+   30  catGenerated config:
+   31   · API Endpoint:https://api.na410r.prod.ole.redhat.com:6443/
+   32   · Wildcard Domain:apps.na410r.prod.ole.redhat.com
+   33   · Nexus Server Host:nexus-common.apps.na410r.prod.ole.redhat.com
+   34   · Username:oxxsrd
+   35   · Password:22c613e237284e48b450
+   36   · GitHub Account Name:holdridge1
+   37   · Quay.io Account Name:jose_holdridge-cr
+   38  cat /usr/local/etc/ocp4.config
+   39  . /usr/local/etc/ocp4.config
+   40  clear
+   41  git clone https://github.com/holdridge1/DO180-apps
+   42  ls
+   43  cd DO180-apps/
+   44  ll
+   45  git status
+   46  git checkout -b testbranch
+   47  echo "DO180" > TEST
+   48  git add . 
+   49  git commit -m "DO180"
+   50  git push --set-upstream origin testbranch
+   51  echo OCP4 > TEST
+   52  git add .
+   53  git commit -m "OCP4"
+   54  git push
+   55  ls
+   56  cat README.md 
+   57  history
+[student@workstation DO180-apps]$ 
